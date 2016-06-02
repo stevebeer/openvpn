@@ -8,7 +8,7 @@ RUN apt-get install wget -y
 
 RUN wget https://git.io/vpn -O openvpn-install.sh 
 
-RUN ./openvpn-install.sh
+RUN sudo ./openvpn-install.sh
 
 EXPOSE 1194
 
